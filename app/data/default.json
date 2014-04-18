@@ -1,0 +1,35 @@
+{
+
+
+    "companyName": "TWP微风",
+    "headerText": "员工动向，尽在“掌”握",
+    "headerImageUrl": "img/default/headerImage.png",
+
+    "navigationButtons": [
+        {
+            "id": 0,
+            "title": "微风",
+            "link": "/breeze"
+        },
+        {
+            "id": 1,
+            "title": "价格",
+            "link": "/breeze/price"
+        }
+    ],
+
+    "sections": [
+        {
+            "id": 0,
+            "title": "设计",
+            "imageUrl": "img/default/0.png",
+            "description": "设计说明"
+        },
+        {
+            "id": 1,
+            "title": "功能",
+            "imageUrl": "img/default/1.png",
+            "description": "功能说明"
+        }
+    ]
+}
