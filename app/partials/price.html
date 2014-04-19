@@ -1,10 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+<div>
 
-</body>
-</html>
+    <div class="navigation-bar">
+        <p class="navigation-title">{{data.companyName}}</p>
+
+        <div>
+            <ul>
+                <li ng-repeat="navigationButton in data.navigationButtons" class="navigation-button">
+                    <a href="#{{navigationButton.link}}">{{navigationButton.title}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header-view">
+        <p class="header-text">{{data.headerText}}</p>
+    </div>
+
+    <div class="content-container">
+        <ul>
+            <li ng-repeat="price in data.prices" class="content-price">
+                <p>{{price.title}}</p>
+                <p>{{price.price}}</p>
+                <p>{{price.description}}</p>
+                <ul>
+                    <li ng-repeat="detail in price.details" class="content-price-detail">
+                        <p>{{detail}}</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
