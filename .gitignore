@@ -7795,3 +7795,13 @@ node_modules/shelljs/src/test.js
 node_modules/shelljs/src/to.js
 node_modules/shelljs/src/toEnd.js
 node_modules/shelljs/src/which.js
+.idea/.name
+.idea/encodings.xml
+.idea/jsLibraryMappings.xml
+.idea/libraries/twp_cs_node_modules.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/twp_cs.iml
+.idea/vcs.xml
+.idea/workspace.xml
