@@ -14,8 +14,6 @@
         }
     ],
 
-    "headerText": "员工动向，尽在“掌”握",
-
     "headerText": "价格",
 
     "prices": [
@@ -50,7 +48,7 @@
             "id": 1,
             "title": "企业",
             "imageUrl": "img/default/0.png",
-            "price": "RMB 3000/月",
+            "price": "RMB 4000/月",
             "description": "适合大型企业",
             "details": [
                 "最多支持500个员工",
