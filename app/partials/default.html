@@ -1,34 +1,30 @@
 <div>
 
-    <div>
-
-        <div>
-            <p>{{data.companyName}}</p>
-            <div>
-                <ul>
-                    <li ng-repeat="navigationButton in data.navigationButtons">
-                        <a href="{{navigationButton.link}}">{{navigationButton.title}}</a>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div>
-            <p>{{data.headerText}}</p>
-            <img ng-src="{{data.headerImageUrl}}">
-        </div>
-
+    <div class="navigation-bar">
+        <p class="navigation-title">{{data.companyName}}</p>
+        
         <div>
             <ul>
-                <li ng-repeat="section in data.sections">
-                    <img ng-src="{{section.imageUrl}}">
-                    <p>{{section.title}}</p>
-                    <p>{{section.description}}</p>
+                <li ng-repeat="navigationButton in data.navigationButtons" class="navigation-button">
+                    <a href="{{navigationButton.link}}">{{navigationButton.title}}</a>
                 </li>
             </ul>
         </div>
-
     </div>
-
+    
+    <div class="header-view">
+        <p class="header-text">{{data.headerText}}</p>
+        <img ng-src="{{data.headerImageUrl}}" class="header-text">
+    </div>
+    
+    <div class="content-container">
+    	<ul>
+            <li ng-repeat="section in data.sections" class="content-section">
+                <img ng-src="{{section.imageUrl}}">
+                <p>{{section.title}}</p>
+                <p>{{section.description}}</p>
+            </li>
+        </ul>
+    </div>
+    
 </div>
