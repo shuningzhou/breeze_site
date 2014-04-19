@@ -1,0 +1,64 @@
+{
+    "companyName": "TWP微风",
+
+    "navigationButtons": [
+        {
+            "id": 0,
+            "title": "微风",
+            "link": ""
+        },
+        {
+            "id": 1,
+            "title": "价格",
+            "link": "price"
+        }
+    ],
+
+    "headerText": "员工动向，尽在“掌”握",
+
+    "headerText": "价格",
+
+    "prices": [
+        {
+            "id": 0,
+            "title": "基本",
+            "imageUrl": "img/default/0.png",
+            "price": "RMB 100/月",
+            "description": "适合刚刚起步的企业",
+            "details": [
+                "最多支持10个员工",
+                "最多支持3个团队",
+                "1GB文件存储空间",
+                "TWP邮箱技术支持"
+            ]
+        },
+        {
+            "id": 1,
+            "title": "专业",
+            "imageUrl": "img/default/0.png",
+            "price": "RMB 450/月",
+            "description": "适合中小型企业",
+            "details": [
+                "最多支持50个员工",
+                "最多支持10个团队",
+                "10GB文件存储空间",
+                "TWP邮箱技术支持",
+                "TWP电话技术支持"
+            ]
+        },
+        {
+            "id": 1,
+            "title": "企业",
+            "imageUrl": "img/default/0.png",
+            "price": "RMB 3000/月",
+            "description": "适合大型企业",
+            "details": [
+                "最多支持500个员工",
+                "最多支持30个团队",
+                "100GB文件存储空间",
+                "TWP邮箱技术支持",
+                "TWP电话技术支持"
+            ]
+        }
+    ]
+}
