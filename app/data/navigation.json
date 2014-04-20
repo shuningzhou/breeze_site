@@ -1,0 +1,16 @@
+{
+    "companyName": "TWP微风",
+
+    "navigationButtons": [
+        {
+            "id": 0,
+            "title": "微风",
+            "link": ""
+        },
+        {
+            "id": 1,
+            "title": "价格",
+            "link": "price"
+        }
+    ]
+}

@@ -7805,3 +7805,9 @@ node_modules/shelljs/src/which.js
 .idea/twp_cs.iml
 .idea/vcs.xml
 .idea/workspace.xml
+bower_components/angular-bootstrap/.bower.json
+bower_components/angular-bootstrap/bower.json
+bower_components/angular-bootstrap/ui-bootstrap-tpls.js
+bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js
+bower_components/angular-bootstrap/ui-bootstrap.js
+bower_components/angular-bootstrap/ui-bootstrap.min.js
