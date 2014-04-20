@@ -4,7 +4,8 @@
 
 var twpApp = angular.module('twpApp', [
    'ngRoute',
-   'twpControllers'
+   'twpControllers',
+   'components'
 ]);
 
 twpApp.config(['$routeProvider',

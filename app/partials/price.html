@@ -1,16 +1,6 @@
 <div>
 
-    <div class="navigation-bar">
-        <p class="navigation-title">{{data.companyName}}</p>
-
-        <div>
-            <ul>
-                <li ng-repeat="navigationButton in data.navigationButtons" class="navigation-button">
-                    <a href="#/breeze/{{navigationButton.link}}">{{navigationButton.title}}</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+    <twpnavigationbar></twpnavigationbar>
 
     <div class="header-view">
         <p class="header-text">{{data.headerText}}</p>
