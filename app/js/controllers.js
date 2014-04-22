@@ -1,12 +1,20 @@
 'use strict';
 
 /* Controllers */
-
 var twpControllers = angular.module('twpControllers',[]);
 
-twpControllers.controller('defaultController', ['$scope', '$http',
+
+twpControllers.controller('homeController', ['$scope', '$http',
     function($scope, $http){
-        $http.get('data/default.json').success(function(data) {
+        $http.get('data/home.json').success(function(data) {
+            $scope.data = data;
+        });
+    }
+]);
+
+twpControllers.controller('featureController', ['$scope', '$http',
+    function($scope, $http){
+        $http.get('data/features.json').success(function(data) {
            $scope.data = data;
         });
     }

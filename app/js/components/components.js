@@ -8,6 +8,7 @@ components.directive('twpnavigationbar', function(){
             restrict: 'E',
             scope:{},
             templateUrl: 'js/components/templates/navigationBar.html',
+            //templateUrl: 'js/components/templates/demoNavBar.html',
             controller:
                 function($scope, $http){
                     $http.get('data/navigation.json').success(function(data){

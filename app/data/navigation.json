@@ -1,11 +1,12 @@
 {
     "companyName": "TWP微风",
+    "companyLink": "",
 
     "navigationButtons": [
         {
             "id": 0,
-            "title": "微风",
-            "link": ""
+            "title": "功能",
+            "link": "features"
         },
         {
             "id": 1,

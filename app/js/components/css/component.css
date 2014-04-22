@@ -1,0 +1,13 @@
+.navbar {	
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.navbar .navbar-brand{
+	color: #27ae60;
+}
+
+.navbar{
+	margin-bottom: 0;
+}

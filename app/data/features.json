@@ -1,13 +1,11 @@
 {
     "headerText": "员工动向，尽在“掌”握",
-    "headerImageUrl": "img/default/headerImage.png",
-
 
     "sections": [
         {
             "id": 0,
             "title": "设计",
-            "imageUrl": "img/default/0.png",
+            "imageUrl": "img/feature/group.jpg",
             "description": "设计说明"
         },
         {
@@ -15,6 +13,12 @@
             "title": "功能",
             "imageUrl": "img/default/1.png",
             "description": "功能说明"
+        },
+        {
+            "id": 2,
+            "title": "添加",
+            "imageUrl": "img/default/1.png",
+            "description": "添加任务"
         }
     ]
 }

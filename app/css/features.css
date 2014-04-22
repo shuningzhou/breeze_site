@@ -1,0 +1,107 @@
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst
+{
+    0%   {background:url('../img/feature/checkin.jpg') no-repeat}
+    48%  {background:url('../img/feature/checkin.jpg') no-repeat}
+    52%  {background:url('../img/feature/tasks.jpg') no-repeat}
+    100%  {background:url('../img/feature/tasks.jpg') no-repeat}
+}
+
+/* Standard syntax */
+@keyframes myfirst
+{
+    0%   {background:url('../img/feature/checkin.jpg') no-repeat}
+    48%  {background:url('../img/feature/checkin.jpg') no-repeat}
+    52%  {background:url('../img/feature/tasks.jpg') no-repeat}
+    100%  {background:url('../img/feature/tasks.jpg') no-repeat}
+}
+
+.central section{
+	float: left;
+	width:985px;
+	margin: 0px 0px 0px 0px;
+	padding: 0 0 0 0;
+	border-top: 1px solid #e6e6e8;
+}
+
+.central section a{
+    margin-top: 50px;
+	font-size: 20px;
+    text-decoration: none;
+	color: black;
+}
+
+.central section p{
+    margin-top: 10px;
+	color: #8e959c;
+	font-size: 15px;
+}
+
+.text-right{
+    float:right;
+    text-align: left;
+    width: 550px;
+}
+
+.image-left{
+    float:left;
+}
+
+.text-left{
+    float:left;
+    text-align: left;
+    width: 500px;
+}
+
+.image-right{
+    float:right;
+}
+
+#tasks-image{
+    min-height:800px;
+    min-width: 400px;
+    margin-top: 20px;
+    background: url('../img/feature/tasks.jpg') no-repeat;
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name:myfirst;
+    -webkit-animation-duration:10s;
+    -webkit-animation-timing-function:ease;
+    -webkit-animation-delay:0;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-play-state:running;
+    /* Standard syntax */
+    animation-name:myfirst;
+    animation-duration:10s;
+    animation-timing-function:ease-in-out;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-play-state:running;
+}
+
+#group-image{
+    min-height:800px;
+    min-width: 400px;
+    margin-top: 20px;
+    background: url('../img/feature/tasks.jpg') no-repeat;
+
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name:myfirst;
+    -webkit-animation-duration:10s;
+    -webkit-animation-timing-function:ease;
+    -webkit-animation-delay:0;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-play-state:running;
+    /* Standard syntax */
+    animation-name:myfirst;
+    animation-duration:10s;
+    animation-timing-function:ease-in-out;
+    animation-delay:2s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-play-state:running;
+}
+
+
+
