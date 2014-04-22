@@ -1,5 +1,5 @@
 'use strict';
-
+/*/Users/shuningzhou/twp_cs/
 /* App Module */
 
 var twpApp = angular.module('twpApp', [
@@ -12,8 +12,12 @@ twpApp.config(['$routeProvider',
    function($routeProvider){
        $routeProvider.
            when('/breeze',{
-           templateUrl: 'partials/default.html',
-           controller: 'defaultController'
+           templateUrl: 'partials/home.html',
+           controller: 'homeController'
+           }).
+           when('/breeze/features',{
+               templateUrl: 'partials/features.html',
+               controller: 'featureController'
            }).
            when('/breeze/price',{
                templateUrl: 'partials/price.html',
