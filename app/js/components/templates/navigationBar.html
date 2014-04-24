@@ -1,9 +1,9 @@
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container">
     <a class="navbar-brand" href="#/breeze/{{data.companyLink}}">{{data.companyName}}</a>
     <ul class="nav navbar-nav navbar-right">
       <li ng-repeat="navigationButton in data.navigationButtons">
-        <a href="#/breeze/{{navigationButton.link}}">{{navigationButton.title}}</a>
+        <a class="nav-button" href="#/breeze/{{navigationButton.link}}">{{navigationButton.title}}</a>
       </li>
     </ul>
   </div>
