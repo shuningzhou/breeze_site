@@ -2,14 +2,11 @@
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-  height: 70px;
   background-color: rgba(0,0,0,0.8);
 }
 
 .navbar .navbar-brand{
 	color: #27ae60;
-    margin: 10px;
-    font-size: 25px;
 }
 
 .navbar{
@@ -17,6 +14,5 @@
 }
 
 .nav-button{
-    font-size: 18px;
-    margin: 10px;
+    color: orangered;
 }

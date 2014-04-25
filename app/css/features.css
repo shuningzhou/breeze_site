@@ -48,15 +48,18 @@
 }
 
 .headView{
-    background: url('../img/feature/background_people.jpg') no-repeat;
+    background: url('../img/default/splash.jpg') no-repeat;
     background-position: center center;
     background-size: cover;
     display: block;
 }
 
+.mobilePcCloudView{
+    background-color: #ecf0f1;
+}
+
 .breezeView{
-    display: block;
-    display: table;
+    background-color: #27ae60;
 }
 
 .headTextLarge{
@@ -68,13 +71,22 @@
 .headTextNormal{
     min-width: 600px;
     margin: 0 auto;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .descriptionTextNormal{
-    min-width: 700px;
+    min-width: 800px;
     margin: 0 auto;
+    padding-top: 20px;
     font-size: 20px;
+}
+
+.smallDescriptionTextNormal{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 17px;
+    text-align: center;
 }
 
 .central section a{

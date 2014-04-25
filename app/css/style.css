@@ -13,7 +13,7 @@
 	position: absolute;
 	top: 0;
 	width: 100%;
-	background-image:url('../img/default/splash.jpg');
+	background-image:url('../img/feature/background_people.jpg');
 }
 
 
@@ -28,16 +28,24 @@
     color: #27ae60;
 }
 
+.darkGreyText{
+    color: #424242;
+}
+
+.lessDarkGreyText{
+    color: #6d6d6d;
+}
+
 .greyText{
     color: #7f8c8d;
 }
 
 .greenText{
 	display: block;
-	color: #60ffa3;
+	color: #ffffff;
 	word-spacing: 1px; 
 	letter-spacing: 0px; 
-	font-size: 70px; 
+	font-size: 50px;
 	padding: 0px 30px;
 }
 
@@ -46,25 +54,37 @@
     color: white;
     word-spacing: 1px;
     letter-spacing: 0px;
-    font-size: 100px;
+    font-size: 80px;
     padding: 0px 30px;
 }
 
 .normalText{
     margin-top: 20px;
-	color: #60ffa3;
+	color: white;
 	display: block;;
 	word-spacing: 1px; 
 	letter-spacing: 0px; 
-	font-size: 50px;
+	font-size: 30px;
+}
+
+.whiteText{
+    color: white;
+}
+
+.blackText{
+    color: #000000;
+}
+
+.silverText{
+    color: #ecf0f1;
 }
 
 .greenDivider{
     margin-top: 10px;
-    background-color: rgba(39, 174, 96,0.4);
+    background-color: black;
     color: white;
     display: block;
-    height: 5px;
+    height: 3px;
 }
 
 .home-text-center {
@@ -89,13 +109,20 @@
   display: inline-block;
   position: relative;
   z-index: 1;
-  padding: 5px 20px;
-  color: #60ffa3;
+  padding: 10px 40px;
+  color: #000000;
   font-size: 20px;
   text-decoration: none;
-  border: 4px solid rgba(46, 204, 113,1);
+  border: 3px solid black;
   border-radius: 0;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-light:hover{
+    border: 4px solid white;
+    background-color: rgba(255,255,255,0.2);
+    color: #ffffff;
+    font-size: 22px;
 }
 
 .central{
@@ -110,12 +137,51 @@
     width: 100%;
     min-width: 1100px;
     min-height: 500px;
-    padding: 230px 5%;
+    padding: 300px 5%;
 }
 
 .text-with-shadow{
     color: #ffffff;
     text-shadow: 0 2px 1px rgba(0,0,0,0.15);
+}
+
+.row-fluid{
+    margin-top: 20px;
+    width: 100%;
+    display: block;
+}
+
+
+
+.feature{
+    width: 31%;
+    margin-left: 3.5%;
+    display: block;
+    box-sizing: border-box;
+    float: left;
+}
+
+.firstFeature{
+    margin-left: 0px;
+}
+
+.iconFeature{
+    width:200px;
+    height:200px;
+    -webkit-background-size: 200px 200px;
+    background-size: 200px 200px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image:url('../img/feature/cloud.png');
+    margin: 0 auto;
+}
+
+.iconMobile{
+    background-image:url('../img/feature/mobile.png');
+}
+
+.iconPc{
+    background-image:url('../img/feature/pc.png');
 }
 
 .firstSection{
@@ -124,15 +190,25 @@
     position: relative;
 }
 
+.sectionContainer{
+    background-color: #ecf0f1;
+}
+
 .secondSection{
-    height: 600px;
-    min-height: 600px;
+    height: 500px;
+    min-height: 500px;
     position: relative;
+    padding: 50px;
+    max-width: 1170px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .thirdSection{
     top: 100%;
-    height: 500px;
-    min-height: 500px;
+    height: 400px;
+    min-height: 400px;
     position: relative;
+    padding: 120px 5%;
 }
