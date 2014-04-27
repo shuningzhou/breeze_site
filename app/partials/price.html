@@ -2,22 +2,52 @@
 
     <twpnavigationbar></twpnavigationbar>
 
-    <div class="header-view">
-        <p class="header-text">{{data.headerText}}</p>
+    <div class="sectionContainer greenView">
+        <div class="price-firstSection absolute-center greenView">
+            <div class="column-large float-left">
+                <div class="headTextNormal text-align-left whiteText">{{data.headerText}}</div>
+                <div class="descriptionTextNormal text-align-left silverText shortText">{{data.headerTextDes}}</div>
+            </div>
+            <div class="column-small float-right default-top-margin">
+                <div class="xxLargeText text-align-center whiteText line-height-one">9</div>
+                <div class="normalText text-align-right whiteText line-height-one">元／每月</div>
+            </div>
+        </div>
     </div>
 
-    <div class="content-container">
-        <ul>
-            <li ng-repeat="price in data.prices" class="content-price">
-                <p>{{price.title}}</p>
-                <p>{{price.price}}</p>
-                <p>{{price.description}}</p>
-                <ul>
-                    <li ng-repeat="detail in price.details" class="content-price-detail">
-                        <p>{{detail}}</p>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+
+    <div class="sectionContainer">
+        <div class="price-secondSection absolute-center mobilePcCloudView">
+            <div class="descriptionTextNormal text-align-center lessDarkGreyText">所有用户都享受以下服务</div>
+            <div class="row-fluid">
+                <div class="feature firstFeature">
+                    <div class="iconFeature"></div>
+                    <div class="smallDescriptionTextNormal greyText">无限云数据存储(99.99%在线)</div>
+                </div>
+                <div class="feature">
+                    <div class="iconFeature iconMobile"></div>
+                    <div class="smallDescriptionTextNormal greyText">移动设备(Breeze)</div>
+                </div>
+                <div class="feature">
+                    <div class="iconFeature iconPc"></div>
+                    <div class="smallDescriptionTextNormal greyText">台式电脑(Breeze管理员)</div>
+                </div>
+                <div class="feature firstFeature">
+                    <div class="iconFeature iconPhone"></div>
+                    <div class="smallDescriptionTextNormal greyText">TWP电话技术支持(需额外收费)</div>
+                </div>
+                <div class="feature">
+                    <div class="iconFeature iconEmail"></div>
+                    <div class="smallDescriptionTextNormal greyText">TWP邮件技术支持(24小时 免费)</div>
+                </div>
+                <div class="feature">
+                    <div class="iconFeature iconSkin"></div>
+                    <div class="smallDescriptionTextNormal greyText">自定义皮肤(需额外收费)</div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <twpfooterbar></twpfooterbar>
+
 </div>
