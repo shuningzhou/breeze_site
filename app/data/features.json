@@ -1,24 +1,69 @@
 {
     "headerText": "员工动向，尽在“掌”握",
+    "headerText2": "“微风”无处不在",
+    "headerText2des": "随时随地连接我们的云端服务器，不受地理限制。",
+    "headerText3": "强大的工作平台",
+    "headerText3des": "企业级的硬件设施，为您提供高效的团队管理工具",
+    "headerText4": "精心设计的用户界面",
+    "headerText4des": "每一个按钮的位置都经过设计师的深思熟虑。我们知道App的“外表”和它的功能一样重要。我们相信Less is more。",
 
     "sections": [
         {
             "id": 0,
-            "title": "设计",
-            "imageUrl": "img/feature/group.jpg",
-            "description": "设计说明"
+            "title": "任务",
+            "description":  [
+                "实时同步当天任务",
+                "任务详情一目了然",
+                "提前打卡 避免迟到",
+                "任务按状态分栏显示"
+            ]
         },
         {
             "id": 1,
-            "title": "功能",
-            "imageUrl": "img/default/1.png",
-            "description": "功能说明"
+            "title": "打卡",
+            "description":  [
+                "拍照上传",
+                "记录拍照时间 确保真实性",
+                "自定义文字说明",
+                "精确位置信息",
+                "离线上传"
+            ]
         },
         {
             "id": 2,
-            "title": "添加",
-            "imageUrl": "img/default/1.png",
-            "description": "添加任务"
+            "title": "安排任务",
+            "description":  [
+                "员工搜索",
+                "客户搜素",
+                "轻松自定义"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "小组公告",
+            "description":  [
+                "推送至员工手机",
+                "实时同步",
+                "权限控制"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "组员状态",
+            "description":  [
+                "图标显示打卡状态",
+                "详细打卡内容",
+                "及时发现未打卡员工"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "定位",
+            "description":  [
+                "地图显示打卡位置",
+                "显示最近3个任务",
+                "显示任务打卡状态"
+            ]
         }
     ]
 }

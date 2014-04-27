@@ -1,22 +1,4 @@
 /* Chrome, Safari, Opera */
-@-webkit-keyframes myfirst
-{
-    0%   {background:url('../img/feature/checkin.jpg') no-repeat}
-    48%  {background:url('../img/feature/checkin.jpg') no-repeat}
-    52%  {background:url('../img/feature/tasks.jpg') no-repeat}
-    100%  {background:url('../img/feature/tasks.jpg') no-repeat}
-}
-
-/* Standard syntax */
-@keyframes myfirst
-{
-    0%   {background:url('../img/feature/checkin.jpg') no-repeat}
-    48%  {background:url('../img/feature/checkin.jpg') no-repeat}
-    52%  {background:url('../img/feature/tasks.jpg') no-repeat}
-    100%  {background:url('../img/feature/tasks.jpg') no-repeat}
-}
-
-/* Chrome, Safari, Opera */
 @-webkit-keyframes moveup
 {
     0%   {margin-top: 3%}
@@ -52,14 +34,19 @@
     background-position: center center;
     background-size: cover;
     display: block;
+    padding-top: 300px;
 }
 
 .mobilePcCloudView{
     background-color: #ecf0f1;
 }
 
-.breezeView{
+.greenView{
     background-color: #27ae60;
+}
+
+.darkGreenView{
+    background-color: #7f8c8d;
 }
 
 .headTextLarge{
@@ -75,18 +62,47 @@
 }
 
 .descriptionTextNormal{
-    min-width: 800px;
     margin: 0 auto;
     padding-top: 20px;
     font-size: 20px;
 }
 
+
+.shortText{
+    margin: 0 0;
+    width: 530px;
+}
+
+.longText{
+    width: 800px;
+}
+
 .smallDescriptionTextNormal{
     width: 100%;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 0px;
     font-size: 17px;
     text-align: center;
+}
+
+.smallText{
+    font-size: 17px;
+}
+
+.normalText{
+    font-size: 20px;
+}
+
+.largeText{
+    font-size: 30px;
+}
+
+.xLargeText{
+    font-size: 60px;
+}
+
+.xxLargeText{
+    font-size: 130px;
 }
 
 .central section a{
@@ -113,7 +129,10 @@
 
 .text-align-left{
     text-align: left;
-    margin-left: 10%;
+}
+
+.text-align-right{
+    text-align: right;
 }
 
 .float-left{
@@ -130,59 +149,81 @@
     float:right;
 }
 
-.column-left-large{
-    width: 900px
+.column-large{
+    width: 700px
 }
 
-.column-right-small{
-    width: 400px;
+.column-small{
+    width: 200px;
+}
+
+.column-xSmall{
+    width: 100px;
+}
+
+.line-height-one{
+    line-height: 1;
+}
+
+.default-top-margin{
+     margin-top: 20px;
+ }
+
+.large-top-margin{
+    margin-top: 100px;
+}
+
+.default-bottom-margin{
+    margin-bottom: 20px;
+}
+
+.default-left-margin{
+    margin-left: 20px;
+}
+
+.large-left-margin{
+    margin-left: 40px;
+}
+
+
+.xLarge-left-margin{
+    margin-left: 80px;
+}
+
+.tasks-feature-container{
+    min-height:760px;
+    min-width: 255px;
+    height:760px;
+    width:255px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.outer-container{
+    height:253px;
+    width: 255px;
+    padding: 25px 25px;
+}
+
+.outer-container:hover{
+    background-color: rgba(39,174,96,0.15);
+}
+
+.inner-container a{
+    color: #2ecc71;
+    font-size: 18px;
 }
 
 #tasks-image{
-    min-height:800px;
-    min-width: 400px;
-    margin-top: 20px;
-    background: url('../img/feature/tasks.jpg') no-repeat;
-
-    /* Chrome, Safari, Opera */
-    -webkit-animation-name:myfirst;
-    -webkit-animation-duration:10s;
-    -webkit-animation-timing-function:ease;
-    -webkit-animation-delay:0;
-    -webkit-animation-iteration-count:infinite;
-    -webkit-animation-play-state:running;
-    /* Standard syntax */
-    animation-name:myfirst;
-    animation-duration:10s;
-    animation-timing-function:ease-in-out;
-    animation-delay:2s;
-    animation-iteration-count:infinite;
-    animation-direction:alternate;
-    animation-play-state:running;
+    min-height:760px;
+    min-width: 390px;
+    height:760px;
+    width:390px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background: url('../img/feature/tasks.png') no-repeat;
 }
 
-#group-image{
-    min-height:800px;
-    min-width: 400px;
-    margin-top: 20px;
-    background: url('../img/feature/tasks.jpg') no-repeat;
-
-    /* Chrome, Safari, Opera */
-    -webkit-animation-name:myfirst;
-    -webkit-animation-duration:10s;
-    -webkit-animation-timing-function:ease;
-    -webkit-animation-delay:0;
-    -webkit-animation-iteration-count:infinite;
-    -webkit-animation-play-state:running;
-    /* Standard syntax */
-    animation-name:myfirst;
-    animation-duration:10s;
-    animation-timing-function:ease-in-out;
-    animation-delay:2s;
-    animation-iteration-count:infinite;
-    animation-direction:alternate;
-    animation-play-state:running;
-}
 
 
 

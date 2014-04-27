@@ -1,3 +1,12 @@
+<script type="text/javascript">
+    function changeBgImage (image, id) {
+        var element = document.getElementById(id);
+        var path = "../app/img/feature/";
+        path = path.concat(image);
+        element.style.background = "url("+path+") no-repeat";
+    }
+</script>
+
 <div>
 
     <twpnavigationBar></twpnavigationBar>
@@ -8,56 +17,145 @@
 
     <div class="sectionContainer">
         <div class="secondSection absolute-center mobilePcCloudView">
-            <div class="headTextNormal text-align-center darkGreyText">{{data.headerText}}</div>
-            <div class="descriptionTextNormal text-align-center lessDarkGreyText">李连杰的壹基金在网上遭到质疑，贪污雅安地震3亿善款。对此，壹基金的创始人李连杰称“我没有财务章</div>
+            <div class="headTextNormal text-align-center darkGreyText">{{data.headerText2}}</div>
+            <div class="descriptionTextNormal text-align-center lessDarkGreyText">{{data.headerText2des}}</div>
             <div class="row-fluid">
                 <div class="feature firstFeature">
                     <div class="iconFeature"></div>
-                    <div class="smallDescriptionTextNormal greyText">云计算</div>
-                 </div>
+                    <div class="smallDescriptionTextNormal greyText">云服务器(99.99%在线)</div>
+                </div>
                 <div class="feature">
                     <div class="iconFeature iconMobile"></div>
                     <div class="smallDescriptionTextNormal greyText">移动设备</div>
                 </div>
                 <div class="feature">
                     <div class="iconFeature iconPc"></div>
-                    <div class="smallDescriptionTextNormal greyText">台式电脑</div>
+                    <div class="smallDescriptionTextNormal greyText">台式电脑(支持所有浏览器)</div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="thirdSection absolute-center breezeView">
-        <div class="column-left-large float-left">
-            <div class="headTextNormal text-align-left whiteText">{{data.headerText}}</div>
-            <div class="descriptionTextNormal text-align-left silverText">李连杰的壹基金在网上遭到质疑，贪污雅安地震3亿善款。对此，壹基金的创始人李连杰称“我没有财务章，没有签字权，钱都在国家银行，怎么能转入自己的帐户呢？”他还调侃道， “壹基金理事会成员们一起贪污这三个亿，恐怕也不够分啊</div>
+    <div class="sectionContainer">
+        <div class="secondHalfSection absolute-center mobilePcCloudView">
+            <div class="headTextNormal text-align-center darkGreyText">{{data.headerText3}}</div>
+            <div class="descriptionTextNormal text-align-center lessDarkGreyText">{{data.headerText3des}}</div>
+            <div class="row-fluid">
+                <div class="feature firstFeature">
+                    <div class="iconFeature iconTask"></div>
+                    <div class="smallDescriptionTextNormal greyText">任务系统</div>
+                </div>
+                <div class="feature">
+                    <div class="iconFeature iconData"></div>
+                    <div class="smallDescriptionTextNormal greyText">无限量数据存储</div>
+                </div>
+                <div class="feature">
+                    <div class="iconFeature iconRadar"></div>
+                    <div class="smallDescriptionTextNormal greyText">员工跟踪</div>
+                </div>
+                <div class="feature firstFeature">
+                    <div class="iconFeature iconReport"></div>
+                    <div class="smallDescriptionTextNormal greyText">员工打卡报告</div>
+                </div>
+                <div class="feature ">
+                    <div class="iconFeature iconCamera"></div>
+                    <div class="smallDescriptionTextNormal greyText">照片打卡</div>
+                </div>
+                <div class="feature">
+                    <div class="iconFeature iconGroup"></div>
+                    <div class="smallDescriptionTextNormal greyText">团队系统</div>
+                </div>
+                <div class="feature firstFeature">
+                    <div class="iconFeature iconAdd"></div>
+                    <div class="smallDescriptionTextNormal greyText">新功能...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="thirdSection absolute-center greenView">
+        <div class="column-large float-left">
+            <div class="headTextNormal text-align-left whiteText">{{data.headerText4}}</div>
+            <div class="descriptionTextNormal text-align-left silverText longText">{{data.headerText4des}}</div>
         </div>
     </div>
     
-    <div class="central thirdSection">
-        <section id="feature-task">
-            <a id="tasks" class="text-right">{{data.sections[0].title}}</a>
-            <div id="tasks-image" class="image-left"></div>
-            <p id="tasks-des" class="text-right">{{data.sections[0].description}}</p>
+    <div class="fourthSection">
 
-            <a id="checkin" class="text-right">{{data.sections[1].title}}</a>
-            <p id="checkin-des" class="text-right">{{data.sections[1].description}}</p>
+        <div id="tasks-image" class="float-left"></div>
 
-            <a id="addtask" class="text-right">{{data.sections[2].title}}</a>
-            <p id="addtask-des" class="text-right">{{data.sections[2].description}}</p>
-        </section>
+        <div class="tasks-feature-container float-left text-align-left xLarge-left-margin">
 
-        <section id="feature-group">
-            <a id="post" class="text-left">{{data.sections[0].title}}</a>
-            <div id="group-image" class="image-right"></div>
-            <p id="post-des" class="text-left">{{data.sections[0].description}}</p>
+            <div class="outer-container" onMouseOver="changeBgImage('tasks.png', 'tasks-image')">
+                <div class="inner-container">
+                    <a id="tasks">{{data.sections[0].title}}</a>
+                    <ul>
+                        <li ng-repeat="description in data.sections[0].description">
+                            <p>{{description}}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-            <a id="users" class="text-left">{{data.sections[1].title}}</a>
-            <p id="users-des" class="text-left">{{data.sections[1].description}}</p>
+            <div class="outer-container" onMouseOver="changeBgImage('checkin.png', 'tasks-image')">
+                <div class="inner-container">
+                    <a id="checkin" >{{data.sections[1].title}}</a>
+                    <ul>
+                        <li ng-repeat="description in data.sections[1].description">
+                            <p>{{description}}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-            <a id="map" class="text-left">{{data.sections[2].title}}</a>
-            <p id="map-des" class="text-left">{{data.sections[2].description}}</p>
-        </section>
+            <div class="outer-container" onMouseOver="changeBgImage('newtask.png', 'tasks-image')">
+                <div class="inner-container">
+                    <a id="addtask">{{data.sections[2].title}}</a>
+                    <ul>
+                        <li ng-repeat="description in data.sections[2].description">
+                            <p>{{description}}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="tasks-feature-container float-left text-align-left default-left-margin">
+            <div class="outer-container" onMouseOver="changeBgImage('post.png', 'tasks-image')">
+                <div class="inner-container">
+                    <a id="group">{{data.sections[3].title}}</a>
+                    <ul>
+                        <li ng-repeat="description in data.sections[3].description">
+                            <p>{{description}}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="outer-container" onMouseOver="changeBgImage('status.png', 'tasks-image')">
+                <div class="inner-container">
+                    <a id="member" >{{data.sections[4].title}}</a>
+                    <ul>
+                        <li ng-repeat="description in data.sections[4].description">
+                            <p>{{description}}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="outer-container" onMouseOver="changeBgImage('location.png', 'tasks-image')">
+                <div class="inner-container">
+                    <a id="location">{{data.sections[5].title}}</a>
+                    <ul>
+                        <li ng-repeat="description in data.sections[5].description">
+                            <p>{{description}}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div>
-    
+
+    <twpfooterbar></twpfooterbar>
 </div>

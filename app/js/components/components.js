@@ -17,3 +17,17 @@ components.directive('twpnavigationbar', function(){
                 }
         }
     });
+
+components.directive('twpfooterbar', function(){
+    return{
+        restrict: 'E',
+        scope:{},
+        templateUrl: 'js/components/templates/footerBar.html',
+        controller:
+            function($scope, $http){
+                $http.get('data/navigation.json').success(function(data){
+                    $scope.data = data;
+                });
+            }
+    }
+});
