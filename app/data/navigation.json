@@ -12,6 +12,11 @@
             "id": 1,
             "title": "价格",
             "link": "price"
+        },
+        {
+            "id": 2,
+            "title": "联系我们",
+            "link": "contact"
         }
     ]
 }

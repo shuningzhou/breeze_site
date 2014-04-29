@@ -23,6 +23,9 @@ twpApp.config(['$routeProvider',
                templateUrl: 'partials/price.html',
                controller: 'priceController'
            }).
+           when('/breeze/contact',{
+               templateUrl: 'partials/contact.html'
+           }).
            otherwise({
                redirectTo: '/breeze'
            });
