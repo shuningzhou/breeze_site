@@ -30,7 +30,7 @@
 }
 
 .headView{
-    background: url('../img/default/splash.jpg') no-repeat;
+    background: url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/splash2.jpg') no-repeat;
     background-position: center center;
     background-size: cover;
     display: block;
@@ -221,7 +221,7 @@
     width:390px;
     margin-top: 70px;
     margin-bottom: 70px;
-    background: url('../img/feature/tasks.png') no-repeat;
+    background: url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/tasks.png') no-repeat;
 }
 
 
