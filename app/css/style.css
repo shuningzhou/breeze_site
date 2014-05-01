@@ -13,7 +13,7 @@
 	position: absolute;
 	top: 0;
 	width: 100%;
-	background-image:url('../img/feature/splash.jpg');
+	background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/splash.jpg');
 }
 
 
@@ -110,7 +110,7 @@
     background-size: 191px 56px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-image:url('../img/feature/logo.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/logo.png');
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -184,57 +184,57 @@ a:hover{
     background-size: 200px 200px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-image:url('../img/feature/cloud.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/cloud.png');
     margin: 0 auto;
     margin-top: 20px;
 }
 
 .iconMobile{
-    background-image:url('../img/feature/mobile.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/mobile.png');
 }
 
 .iconPc{
-    background-image:url('../img/feature/pc.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/pc.png');
 }
 
 .iconPhone{
-    background-image:url('../img/feature/phone.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/phone.png');
 }
 
 .iconEmail{
-    background-image:url('../img/feature/email.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/email.png');
 }
 
 .iconData{
-    background-image:url('../img/feature/data.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/data.png');
 }
 
 .iconTask{
-    background-image:url('../img/feature/task.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/task.png');
 }
 
 .iconRadar{
-    background-image:url('../img/feature/radar.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/radar.png');
 }
 
 .iconReport{
-    background-image:url('../img/feature/report.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/report.png');
 }
 
 .iconCamera{
-    background-image:url('../img/feature/camera.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/camera.png');
 }
 
 .iconGroup{
-    background-image:url('../img/feature/group.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/group.png');
 }
 
 .iconSkin{
-    background-image:url('../img/feature/skin.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/skin.png');
 }
 
 .iconAdd{
-    background-image:url('../img/feature/add.png');
+    background-image:url('http://companyassets.oss-cn-beijing.aliyuncs.com/img/add.png');
 }
 
 .firstSection{
